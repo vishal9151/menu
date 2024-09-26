@@ -11,7 +11,7 @@ const app= express();
 
 // Enable CORS for all routes
 app.use(cors({
-    origin: ['http://localhost:5173','http://localhost:3001'], // Allow requests from this origin
+    origin: ['http://localhost:5173','http://localhost:3001',"https://c3b9-205-254-175-208.ngrok-free.app"], // Allow requests from this origin
     methods: 'GET,POST,PUT,DELETE', // Allowed methods
     credentials: true // If you need to include cookies or authorization headers
 }));
